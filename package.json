@@ -1,6 +1,6 @@
 {
   "name": "graphql-user",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "umd:main": "dist/graphql-user.umd.production.js",
   "module": "dist/graphql-user.es.production.js",
