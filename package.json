@@ -1,0 +1,43 @@
+{
+  "name": "graphql-user",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "umd:main": "dist/graphql-user.umd.production.js",
+  "module": "dist/graphql-user.es.production.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/jest": "^24.0.13",
+    "@types/jsonwebtoken": "^8.3.2",
+    "husky": "^2.3.0",
+    "prettier": "^1.17.1",
+    "pretty-quick": "^1.11.0",
+    "tsdx": "^0.5.11",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
