@@ -1,27 +1,11 @@
-# TSDX Bootstrap
+##graphql-user
 
-This project was bootstrapped with [TSDX](https://github.com/jaredpalmer/tsdx).
+This package is using the packages `bcrypt` and `jsonwebtoken` in order to provide some reusable functions for GraphQL authentication.
+Make sure that your app has an `APP_SECRET` env variable.
 
-## Local Development
+It includes the following functions:
 
-Below is a list of commands you will probably find useful.
-
-### `npm start` or `yarn start`
-
-Runs the project in development/watch mode. Your project will be rebuilt upon changes. TSDX has a special logger for you convenience. Error messages are pretty printed and formatted for compatibility VS Code's Problems tab.
-
-<img src="https://user-images.githubusercontent.com/4060187/52168303-574d3a00-26f6-11e9-9f3b-71dbec9ebfcb.gif" width="600" />
-
-Your library will be rebuilt if you make edits.
-
-### `npm run build` or `yarn build`
-
-Bundles the package to the `dist` folder.
-The package is optimized and bundled with Rollup into multiple formats (CommonJS, UMD, and ES Module).
-
-<img src="https://user-images.githubusercontent.com/4060187/52168322-a98e5b00-26f6-11e9-8cf6-222d716b75ef.gif" width="600" />
-
-### `npm test` or `yarn test`
-
-Runs the test watcher (Jest) in an interactive mode.
-By default, runs tests related to files changed since the last commit.
+- `getUserId(context)` - Returns the currently logged user's id using `context.request.get("Authorization")`
+- `getToken(userId: string)` - Returns a token by signing an object containing `{userId}` using the `APP_SECRET`
+- `getHashedPassword(password: string)` - Returns a hashed version of a password
+- `comparePassword(password: string, comparePassword:string)` - Compares a password and a hashed password

@@ -11,7 +11,8 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "test": "tsdx test"
+    "test": "tsdx test",
+    "release": "yarn build && np"
   },
   "peerDependencies": {},
   "husky": {
