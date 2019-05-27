@@ -1,4 +1,4 @@
-##graphql-user
+## graphql-user
 
 This package is using the packages `bcrypt` and `jsonwebtoken` in order to provide some reusable functions for GraphQL authentication.
 Make sure that your app has an `APP_SECRET` env variable.
