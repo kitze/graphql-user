@@ -39,6 +39,13 @@ export const getToken = (userId: string) => {
   return sign({ userId }, APP_SECRET);
 };
 
+export const authPayload = (user: any) => {
+  return {
+    user,
+    token: getToken(user.id),
+  };
+};
+
 export const getHashedPassword = (password: string) => hash(password, 10);
 
 export const comparePassword = (password: string, confirm: string) =>
