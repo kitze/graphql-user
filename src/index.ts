@@ -51,9 +51,11 @@ export const getHashedPassword = (password: string) => hash(password, 10);
 export const comparePassword = (password: string, confirm: string) =>
   compare(password, confirm);
 
-export const contextWithRequest = (otherContextProps: any) => ({
+export const contextWithRequest = (otherContextProps?: any) => ({
   request,
 }: any) => ({
   request,
   ...otherContextProps,
 });
+
+export const USER_TOKEN_LOCAL_STORAGE_KEY = 'user_token';
