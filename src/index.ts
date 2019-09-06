@@ -51,13 +51,9 @@ export const getHashedPassword = (password: string) => hash(password, 10);
 export const comparePassword = (password: string, confirm: string) =>
   compare(password, confirm);
 
-export const USER_TOKEN_KEY = 'user_token';
-
-export const requestWithAuthorization = async (operation: any) => {
-  let userToken = window.localStorage.getItem(USER_TOKEN_KEY);
-  operation.setContext({
-    headers: {
-      Authorization: `Bearer ${userToken}`,
-    },
-  });
-};
+export const contextWithRequest = (otherContextProps: any) => ({
+  request,
+}: any) => ({
+  request,
+  ...otherContextProps,
+});
