@@ -38,7 +38,7 @@
     "typescript": "^3.4.5"
   },
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "jsonwebtoken": "^8.5.1"
   }
 }
