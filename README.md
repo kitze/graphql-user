@@ -12,6 +12,8 @@ This package is using the packages `bcrypt` and `jsonwebtoken` in order to provi
 - 🤖 [JSUI](https://github.com/kitze/JSUI) - A powerful UI toolkit for managing JavaScript apps
 - 🎥 [Vlog](https://youtube.com/kitze) - My YouTube channel
 
+<a href="https://zerotoshipped.com"><img style="width:450px" src="https://i.ibb.co/WKQPDv5/twitter-image.jpg" alt="Zero To Shipped"></a>
+
 Make sure that your app has an `APP_SECRET` env variable.
 
 It includes the [following functions](https://github.com/kitze/graphql-user/blob/master/src/index.ts):
