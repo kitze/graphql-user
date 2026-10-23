@@ -35,7 +35,7 @@
     "pretty-quick": "^1.11.0",
     "tsdx": "^0.5.11",
     "tslib": "^1.9.3",
-    "typescript": "^3.4.5"
+    "typescript": "^7.0.2"
   },
   "dependencies": {
     "bcrypt": "^3.0.6",
