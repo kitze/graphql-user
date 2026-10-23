@@ -30,7 +30,7 @@
     "@types/bcrypt": "^3.0.0",
     "@types/jest": "^24.0.13",
     "@types/jsonwebtoken": "^8.3.2",
-    "husky": "^2.3.0",
+    "husky": "^9.1.7",
     "prettier": "^1.17.1",
     "pretty-quick": "^1.11.0",
     "tsdx": "^0.5.11",
