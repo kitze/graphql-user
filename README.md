@@ -214,7 +214,12 @@ Reusable utility methods for GraphQL authentication in Node\.js
     </td>
   </tr>
   <tr>
-    <td width="100%" colspan="3" valign="top">
+    <td width="33%" valign="top">
+      <a href="https://watasu.io/?utm_source=pwnwatch&amp;utm_medium=sponsor&amp;utm_campaign=sidebar&amp;ref=kitze%2Fgraphql-user"><img src="https://media.gifs.so/sponsors/kitze-io/watasu.png" width="40" alt="WATASU logo"></a><br>
+      <strong><a href="https://watasu.io/?utm_source=pwnwatch&amp;utm_medium=sponsor&amp;utm_campaign=sidebar&amp;ref=kitze%2Fgraphql-user">WATASU</a></strong><br>
+      Hosting for your vibe-coded app
+    </td>
+    <td width="67%" colspan="2" valign="top">
       <strong><a href="https://www.kitze.io/sponsors?ref=kitze%2Fgraphql-user">Your product here</a></strong><br>
       Reach developers in every kitze repo.
     </td>
