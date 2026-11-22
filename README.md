@@ -152,22 +152,17 @@ Reusable utility methods for GraphQL authentication in Node\.js
       We&#39;re 3 operators (digitalocean, uber, shopify) turned investors who write first checks into folks with ambition to build global businesses.
     </td>
     <td width="33%" valign="top">
-      <a href="https://www.rakazo.com/?ref=kitze%2Fgraphql-user"><img src="https://rakazo.com/brand/rakazo-mark.png" width="40" alt="Rakazo logo"></a><br>
-      <strong><a href="https://www.rakazo.com/?ref=kitze%2Fgraphql-user">Rakazo</a></strong><br>
-      Open source Grok Bot
-    </td>
-    <td width="33%" valign="top">
       <a href="https://www.theinfluencer.ai/?ref=kitze%2Fgraphql-user"><img src="https://www.theinfluencer.ai/logos/the-influencer-ai-logo-1024.png" width="40" alt="The Influencer AI logo"></a><br>
       <strong><a href="https://www.theinfluencer.ai/?ref=kitze%2Fgraphql-user">The Influencer AI</a></strong><br>
       AI influencer generator: create a realistic influencer from traits or your photos, then make photos, talking videos and UGC ads with the same face every time.
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top">
       <a href="https://pluginboard.ai/?ref=kitze%2Fgraphql-user"><img src="https://media.gifs.so/sponsors/kitze-io/pluginboard.png" width="40" alt="Pluginboard logo"></a><br>
       <strong><a href="https://pluginboard.ai/?ref=kitze%2Fgraphql-user">Pluginboard</a></strong><br>
       Find the right plugins for your AI agents. Plugins, skills and step-by-step recipes for Claude, ChatGPT, Grokbot, Muse, Gemini and more.
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top">
       <a href="https://file.cafe/?ref=kitze%2Fgraphql-user"><img src="https://file.cafe/brand/icon-512.png" width="40" alt="file.cafe logo"></a><br>
       <strong><a href="https://file.cafe/?ref=kitze%2Fgraphql-user">file.cafe</a></strong><br>
@@ -178,13 +173,13 @@ Reusable utility methods for GraphQL authentication in Node\.js
       <strong><a href="https://linkdr.com/?ref=kitze%2Fgraphql-user">LinkDR</a></strong><br>
       Link building that works: real backlinks from hundreds of high-DR sites, done for you or self-serve.
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top">
       <a href="https://outmano.com/?ref=kitze%2Fgraphql-user"><img src="https://outmano.com/icon-512.png" width="40" alt="Outmano logo"></a><br>
       <strong><a href="https://outmano.com/?ref=kitze%2Fgraphql-user">Outmano</a></strong><br>
       AI agents that watch your competitors so you don&#39;t have to
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top">
       <a href="https://mixpost.app/?utm_source=kitze&amp;utm_medium=sponsor&amp;utm_campaign=kitze-sponsor&amp;ref=kitze%2Fgraphql-user"><img src="https://mixpost.s3.eu-central-1.amazonaws.com/remote-access/logo-symbol.png" width="40" alt="Mixpost logo"></a><br>
       <strong><a href="https://mixpost.app/?utm_source=kitze&amp;utm_medium=sponsor&amp;utm_campaign=kitze-sponsor&amp;ref=kitze%2Fgraphql-user">Mixpost</a></strong><br>
@@ -195,13 +190,13 @@ Reusable utility methods for GraphQL authentication in Node\.js
       <strong><a href="https://synteq.com/?ref=kitze%2Fgraphql-user">Synteq</a></strong><br>
       The cloud, built for developers.
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top">
       <a href="https://kraken.io/?ref=kitze%2Fgraphql-user"><img src="https://media.gifs.so/sponsors/kitze-io/kraken-io.png" width="40" alt="Kraken.io logo"></a><br>
       <strong><a href="https://kraken.io/?ref=kitze%2Fgraphql-user">Kraken.io</a></strong><br>
       We optimize your images, to save you bandwidth, make your websites faster, make your customers less frustrated, and reduce your CDN costs.
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top">
       <a href="https://www.opensourcealternatives.to/?ref=kitze%2Fgraphql-user"><img src="https://www.opensourcealternatives.to/logo.png" width="40" alt="Open Source Alternatives logo"></a><br>
       <strong><a href="https://www.opensourcealternatives.to/?ref=kitze%2Fgraphql-user">Open Source Alternatives</a></strong><br>
@@ -212,9 +207,7 @@ Reusable utility methods for GraphQL authentication in Node\.js
       <strong><a href="https://watasu.io/?utm_source=pwnwatch&amp;utm_medium=sponsor&amp;utm_campaign=sidebar&amp;ref=kitze%2Fgraphql-user">WATASU</a></strong><br>
       Hosting for your vibe-coded app
     </td>
-  </tr>
-  <tr>
-    <td width="100%" colspan="3" valign="top">
+    <td width="33%" valign="top">
       <strong><a href="https://www.kitze.io/sponsors?ref=kitze%2Fgraphql-user">Your product here</a></strong><br>
       Reach developers in every kitze repo.
     </td>
