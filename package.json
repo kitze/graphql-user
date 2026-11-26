@@ -34,7 +34,7 @@
     "prettier": "^1.17.1",
     "pretty-quick": "^1.11.0",
     "tsdx": "^0.5.11",
-    "tslib": "^1.9.3",
+    "tslib": "^2.8.1",
     "typescript": "^3.4.5"
   },
   "dependencies": {
